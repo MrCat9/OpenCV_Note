@@ -1,5 +1,7 @@
 # OpenCV_Note
 
+文档  https://docs.opencv.org/4.1.0/d6/d00/tutorial_py_root.html
+
 ## 目录
 
 1_opencv按位操作bitwise
