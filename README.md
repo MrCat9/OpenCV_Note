@@ -56,3 +56,14 @@ im_open = cv2.morphologyEx(src, cv2.MORPH_OPEN, kernel)
 opencv 形态学变换 morphologyEx函数
 https://blog.csdn.net/keen_zuxwang/article/details/72768092
 ```
+
+5_验证码识别
+```
+Python3 识别验证码（opencv-python）
+https://www.cnblogs.com/lizm166/p/9969647.html
+```
+
+
+
+
+
