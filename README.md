@@ -61,6 +61,15 @@ https://blog.csdn.net/keen_zuxwang/article/details/72768092
 ```
 Python3 识别验证码（opencv-python）
 https://www.cnblogs.com/lizm166/p/9969647.html
+降噪  高斯模糊
+字符切割  findContours获取轮廓+boundingRect获取轮廓的x, y, w, h（x为轮廓最左点的x，y为最上点的y，w为最右点x-最左点x的差，h为最下点y-最上点y的差）
+
+Python验证码识别
+https://www.cnblogs.com/qqandfqr/p/7866650.html
+二值化  cv2.adaptiveThreshold自适应阀值二值化
+去除边框
+线降噪  4邻域
+点降噪  9邻域
 ```
 
 
