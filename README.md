@@ -70,6 +70,10 @@ https://www.cnblogs.com/qqandfqr/p/7866650.html
 去除边框
 线降噪  4邻域
 点降噪  9邻域
+
+python实现opencv学习二十四：识别验证码
+https://blog.csdn.net/u011321546/article/details/79647179
+降噪  getStructuringElement+morphologyEx
 ```
 
 
