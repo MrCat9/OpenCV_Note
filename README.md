@@ -74,6 +74,10 @@ https://www.cnblogs.com/qqandfqr/p/7866650.html
 python实现opencv学习二十四：识别验证码
 https://blog.csdn.net/u011321546/article/details/79647179
 降噪  getStructuringElement+morphologyEx
+
+KNN 验证码识别
+https://www.cnblogs.com/xuchunlin/p/9456593.html
+https://blog.csdn.net/weixin_40267472/article/details/81384624
 ```
 
 
