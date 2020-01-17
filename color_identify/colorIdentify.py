@@ -3,7 +3,8 @@
 
 
 import cv2
-from . import colorList
+from color_identify import colorList
+
 
 # filename = 'data/id_12.png'
 filename = 'data/id_1.jpg'
