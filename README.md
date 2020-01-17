@@ -4,7 +4,7 @@
 
 ## 目录
 
-1_opencv按位操作bitwise
+#### 1_opencv按位操作bitwise
 ```
 bitwise_and
 bitwise_or
@@ -18,7 +18,7 @@ https://www.jianshu.com/p/003e9451cdc4
 https://blog.csdn.net/u011028345/article/details/77278467
 ```
 
-2_形态学变换
+#### 2_形态学变换
 ```
 基本形态学变换：
 腐蚀 erode （有0出0） （分割(isolate)独立的图像元素）
@@ -32,7 +32,7 @@ https://blog.csdn.net/u011028345/article/details/77278467
 黑帽 MORPH_BLACKHAT （闭运算图-原图像）（突出原图像中比周围暗的区域）
 ```
 
-3_基本形态学变换_腐蚀与膨胀
+#### 3_基本形态学变换_腐蚀与膨胀
 ```python
 kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3))  # getStructuringElement 可以方便的生成一个矩阵（kernel）
 im_erode = cv2.erode(src, kernel)  # 腐蚀
@@ -48,7 +48,7 @@ getStructuringElement函数
 https://blog.csdn.net/u014737138/article/details/80374666
 ```
 
-4_高级形态学变换_morphologyEx函数
+#### 4_高级形态学变换_morphologyEx函数
 ```python
 im_open = cv2.morphologyEx(src, cv2.MORPH_OPEN, kernel)
 ```
@@ -57,7 +57,7 @@ opencv 形态学变换 morphologyEx函数
 https://blog.csdn.net/keen_zuxwang/article/details/72768092
 ```
 
-5_验证码识别
+#### 5_验证码识别
 ```
 Python3 识别验证码（opencv-python）
 https://www.cnblogs.com/lizm166/p/9969647.html
@@ -80,9 +80,9 @@ https://www.cnblogs.com/xuchunlin/p/9456593.html
 https://blog.csdn.net/weixin_40267472/article/details/81384624
 ```
 
-6_在线RGB工具 https://www.fontke.com/tool/rgb/
+#### 6_在线RGB工具 https://www.fontke.com/tool/rgb/
 
-
+#### 7_
 
 
 
