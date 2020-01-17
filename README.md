@@ -82,7 +82,10 @@ https://blog.csdn.net/weixin_40267472/article/details/81384624
 
 #### 6_在线RGB工具 https://www.fontke.com/tool/rgb/
 
-#### 7_
+#### [7_Python3识别判断图片主要颜色，提取指定颜色](https://github.com/MrCat9/OpenCV_Note/tree/master/color_identify)
 
-
+```
+HSV(hue,saturation,value)颜色空间
+cv2.inRange(src, lowerb, upperb, dst=None)  # 根据范围选择，在范围内的点变为255（白色），不在范围内的变为0（黑色）
+```
 
