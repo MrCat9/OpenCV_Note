@@ -91,3 +91,10 @@ HSV(hue,saturation,value)颜色空间
 cv2.inRange(src, lowerb, upperb, dst=None)  # 根据范围选择，在范围内的点变为255（白色），不在范围内的变为0（黑色）
 ```
 
+#### [8_三个图像包读图对比](https://github.com/MrCat9/OpenCV_Note/tree/master/img_read_compare.py)
+
+```
+cv2
+skimage
+PIL
+```
