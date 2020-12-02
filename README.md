@@ -94,7 +94,9 @@ cv2.inRange(src, lowerb, upperb, dst=None)  # 根据范围选择，在范围内�
 #### [8_三个图像包读图对比](https://github.com/MrCat9/OpenCV_Note/tree/master/img_read_compare.py)
 
 ```
-cv2
-skimage
-PIL
+cv2  array数据  BGR
+skimage  array数据  RGB
+PIL  PIL的Image数据
+
+将cv2读取的图像转Image格式时要注意cv2读取的图像是BGR的
 ```

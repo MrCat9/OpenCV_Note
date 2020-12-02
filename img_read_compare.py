@@ -10,23 +10,24 @@ import matplotlib.pyplot as plt
 
 img_path = 'data/test_data/tt06.png'
 
+
 # cv2
-img1 = cv2.imread(img_path)  # BGR
+img1 = cv2.imread(img_path)  # array数据  # BGR
 cv2.imshow('img1', img1)
 
 # skimage
-img2 = io.imread(img_path)  # RGB
+img2 = io.imread(img_path)  # array数据  # RGB
 plt.figure()
 ax = plt.subplot(111)
 ax.imshow(img2)
 plt.show()
 
 # PIL
-img3 = Image.open(img_path)
+img3 = Image.open(img_path)  # PIL的Image数据
 img3.show()
 
-# array转PIL
-img31 = Image.fromarray(cv2.cvtColor(img1, cv2.COLOR_BGR2RGB))
+# array转Image
+img31 = Image.fromarray(cv2.cvtColor(img1, cv2.COLOR_BGR2RGB))  # 注意cv2读取的图像是BGR的
 img31.show()
 img32 = Image.fromarray(img2)
 img32.show()
