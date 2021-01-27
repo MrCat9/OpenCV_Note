@@ -100,3 +100,13 @@ PIL  PIL的Image数据
 
 将cv2读取的图像转Image格式时要注意cv2读取的图像是BGR的
 ```
+
+[9_PIL图片保存时由于有格式问题报错](https://github.com/MrCat9/OpenCV_Note/tree/master/pil_img_save_error.py)
+
+```
+OSError: cannot write mode RGBA as JPEG
+
+实际为png图片无法保存为.jpg文件
+实际为jpg图片可以保存为.png文件
+```
+
