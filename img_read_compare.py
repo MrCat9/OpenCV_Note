@@ -33,6 +33,10 @@ img32 = Image.fromarray(img2)
 img32.show()
 
 
+# Image转array
+import numpy as np
+img_arr = np.array(img3)
+
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
